@@ -1575,3 +1575,17 @@
 @media (max-width:420px) {
   .nai-panel .nai-panel-brand .nai-brand-mark { display: none; }
 }
+
+.nai-painter-portrait{display:block;flex:none;width:100%;height:100%;overflow:hidden;border-radius:50%;pointer-events:none}
+.nai-painter-portrait>img{display:block;width:100%;height:100%;object-fit:contain;border-radius:50%}
+.nai-painter-loading{width:64px;height:64px}
+.nai-painter-loading[hidden]{display:none!important}
+.nai-painter-progress{display:flex;align-items:center;gap:12px;min-width:0}
+.nai-painter-progress>p{min-width:0;overflow-wrap:anywhere}
+.nai-fab .nai-painter-portrait{position:absolute;inset:0}
+.nai-fab:hover{transform:none}
+.nai-fab-status .nai-painter-loading{width:40px;height:40px}
+.nai-fab-status{align-items:center;gap:8px}
+.nai-fab-status[hidden]{display:none!important}
+.nai-painter-preview{width:80px;height:80px}
+@media(prefers-reduced-motion:reduce){.nai-fab{transition:none!important}.nai-fab:hover{transform:none}}

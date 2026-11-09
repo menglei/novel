@@ -1,0 +1,11 @@
+{
+  "display_name": "玲画师",
+  "loading_order": 20,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "Local implementation",
+  "version": "0.11.0",
+  "homePage": ""
+}

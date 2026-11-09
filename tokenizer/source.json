@@ -1,0 +1,10 @@
+{
+  "library": "Original st-chatu8 transformers.min.js (Transformers.js)",
+  "model": "Xenova/t5-small",
+  "files": [
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "source": "https://huggingface.co/Xenova/t5-small",
+  "purpose": "Matches original token calculator; display reference, not service billing count"
+}

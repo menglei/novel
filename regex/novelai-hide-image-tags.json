@@ -1,0 +1,15 @@
+{
+  "id": "728a83a9-1cea-4e9d-9a16-74acbcbddc26",
+  "scriptName": "NovelAI 隐藏生图标签（保留图片位置）",
+  "findRegex": "/image###(?:(?!image###)[\\s\\S])*?###/g",
+  "replaceString": "<textarea data-nai-regex-anchor hidden>{{match}}</textarea>",
+  "trimStrings": [],
+  "placement": [2],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

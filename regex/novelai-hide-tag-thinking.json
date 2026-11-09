@@ -1,0 +1,15 @@
+{
+  "id": "7908d65e-b534-4599-814f-1e724a4b746d",
+  "scriptName": "NovelAI 隐藏标签思考与标题（可选）",
+  "findRegex": "/<(Tag_think|imgthink)\\b[^>]*>[\\s\\S]*?<\\/\\1\\s*>/gi",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [2],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

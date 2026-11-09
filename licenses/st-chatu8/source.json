@@ -1,0 +1,8 @@
+{
+  "project": "st-chatu8",
+  "source": "https://github.com/damoshen123/st-chatu8",
+  "release": "3.1.5",
+  "license": "Aladdin Free Public License v9",
+  "resources": "tagData/*.json",
+  "transformation": "CryptoJS AES passphrase decoding; JSON contents preserved"
+}

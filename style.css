@@ -1313,9 +1313,10 @@
 .nai-panel[data-page="account"] > .nai-panel-foot { display: none; }
 .nai-section-nav[data-group="account"] { display: none; }
 .nai-account-page { max-width: 920px; width: 100%; margin: 0 auto; }
+.nai-account-page[data-account-state="guest"] { max-width: 460px; }
 .nai-account-grid { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: 24px; align-items: start; }
 .nai-account-card { display: grid; gap: 24px; padding: 28px; border: 1px solid var(--nai-line); border-radius: 12px; background: var(--nai-surface); min-width: 0; }
-.nai-account-auth { max-width: 460px; box-sizing: border-box; }
+.nai-account-auth { width: 100%; max-width: 460px; box-sizing: border-box; }
 .nai-account-card h2 { margin: 0; font-size: 19px; line-height: 1.5; overflow-wrap: anywhere; }
 .nai-account-identity p { margin: 6px 0 0; font-size: 13px; overflow-wrap: anywhere; }
 .nai-account-form { display: grid; gap: 18px; margin: 0; }
@@ -1487,9 +1488,9 @@
 .nai-panel .nai-toggle input[type="checkbox"] { background-color: #383838; border-color: #686868; background-image: radial-gradient(circle,#d4d4d4 4.5px,transparent 5.5px); }
 .nai-panel .nai-toggle input[type="checkbox"]:checked { background-color: #dedede; border-color: #dedede; background-image: radial-gradient(circle,#242424 4.5px,transparent 5.5px); }
 /* 画廊保持图片列表，名称、说明、导入与点赞留在原有详情中。 */
-.nai-panel .nai-gallery-toolbar { align-items: start; gap: 14px; }
-.nai-panel .nai-gallery-toolbar > .nai-gallery-search { flex: 1 1 240px; }
-.nai-panel .nai-gallery-toolbar > .nai-gallery-contributions { display: flex; flex-wrap: wrap; flex: 1 1 330px; justify-content: flex-end; gap: 8px; min-width: 0; }
+.nai-panel .nai-gallery-toolbar { display: grid; grid-template-columns: minmax(0,1fr); align-items: start; gap: 14px; }
+.nai-panel .nai-gallery-toolbar > .nai-gallery-search { width: min(100%,520px); min-width: 0; }
+.nai-panel .nai-gallery-toolbar > .nai-gallery-contributions { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px; min-width: 0; }
 .nai-panel .nai-gallery-toolbar .nai-button { font-size: 12px; min-height: 40px; }
 .nai-panel .nai-gallery-toolbar .nai-field input { min-height: 40px; }
 .nai-panel .nai-gallery-status { font-size: 13px; margin: 4px 0; color: var(--nai-muted); }

@@ -121,6 +121,10 @@
 .nai-list-image-row{min-width:0;padding:9px;border:1px solid #dce6df;border-radius:7px;background:#f9fbf9}
 .nai-list-image-tools{display:grid;gap:8px;padding-top:7px;min-width:0}.nai-list-image-tools .nai-field{min-width:0}.nai-list-image-tools select,.nai-list-image-tools input{width:100%;min-width:0}.nai-list-image-preview{width:64px;height:80px;object-fit:contain;border-radius:4px;background:#eaf0ec}.nai-list-image-tools .nai-muted{overflow-wrap:anywhere}
 @media(prefers-reduced-motion:reduce){.nai-panel *{scroll-behavior:auto!important}}
+.nai-plugin-update{padding:20px;border:1px solid var(--nai-border);border-radius:10px;max-width:680px;color:var(--nai-ink,var(--nai-text))}
+.nai-plugin-update h2{margin:0;font-size:18px}.nai-plugin-update p{margin:16px 0;line-height:1.6;overflow-wrap:anywhere}
+.nai-plugin-update .nai-actions{margin:16px 0 0}.nai-plugin-update .nai-button{min-height:40px}.nai-plugin-update a{text-decoration:none}
+.nai-plugin-update [hidden]{display:none!important}.nai-plugin-update .nai-button:focus-visible{outline:2px solid var(--nai-accent);outline-offset:3px}
 
 /* Graphite palette stays inside plugin dialogs. */
 .nai-generation-progress { margin-block: 12px 20px; }
